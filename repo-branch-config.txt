@@ -1,0 +1,12 @@
+#########################################################################################################
+# repo-branch-config.txt
+# Define the to-be-exported repository and its branch/es, One line per repository
+#
+# For every line, the format should be:
+#<repository name> <branch name list>
+#         <branch name list>: the list of branches which separated by "," character. If it is missed,
+#         then all the branches will be captured for <repository name>
+#########################################################################################################
+#for example:
+mneaas-ipm-agent-deployment   master,Defect-247451
+#mneaas-api
